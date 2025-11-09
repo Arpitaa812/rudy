@@ -19,9 +19,10 @@ int main() {
                 minIndex = j;
         }
         // swap arr[i] and arr[minIndex]
-        int temp = arr[i];
+       /* int temp = arr[i];
         arr[i] = arr[minIndex];
-        arr[minIndex] = temp;
+        arr[minIndex] = temp;*/
+        swap(arr[i],arr[minIndex]);
     }
 
     cout << "Sorted array (Selection Sort): ";
